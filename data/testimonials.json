@@ -1,0 +1,32 @@
+[
+  {
+    "id": "testimonial-1",
+    "name": "Sarah Johnson",
+    "role": "Product Manager",
+    "company": "Tech Innovations Inc.",
+    "text": "John is an exceptional developer who consistently delivers high-quality work. His technical expertise and problem-solving abilities have been instrumental in the success of our projects.",
+    "imageUrl": "/api/placeholder?width=200&height=200&text=SJ&color=0070F3&textColor=FFFFFF",
+    "relationship": "Project Manager",
+    "date": "2023-01-15"
+  },
+  {
+    "id": "testimonial-2",
+    "name": "Michael Chen",
+    "role": "CTO",
+    "company": "DataFlow Systems",
+    "text": "Working with John was a pleasure. His deep understanding of both frontend and backend technologies, along with his commitment to clean code principles, made him a valuable asset to our team.",
+    "imageUrl": "/api/placeholder?width=200&height=200&text=MC&color=6D28D9&textColor=FFFFFF",
+    "relationship": "Former Manager",
+    "date": "2021-07-20"
+  },
+  {
+    "id": "testimonial-3",
+    "name": "Emily Rodriguez",
+    "role": "UI/UX Designer",
+    "company": "WebSphere Solutions",
+    "text": "John has an incredible ability to transform designs into pixel-perfect, responsive interfaces. His attention to detail and commitment to user experience make him a designer's dream developer.",
+    "imageUrl": "/api/placeholder?width=200&height=200&text=ER&color=F97316&textColor=FFFFFF",
+    "relationship": "Collaborator",
+    "date": "2019-02-28"
+  }
+] 

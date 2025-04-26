@@ -1,0 +1,28 @@
+{
+  "name": "Om Jee Mishra",
+  "title": "Full Stack Developer",
+  "bio": "Passionate Full Stack Developer with expertise in modern web technologies, dedicated to creating elegant solutions to complex problems.",
+  "longBio": "I'm a Full Stack Developer with over 5 years of experience building web applications with JavaScript, TypeScript, React, and Node.js. I'm passionate about creating clean, efficient, and user-friendly solutions that solve real-world problems. My background in both frontend and backend development allows me to approach projects with a comprehensive understanding of the entire development lifecycle, from concept to deployment. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through tech blogs and community events.",
+  "headline": "Building digital experiences that make a difference",
+  "profileImage": "/api/placeholder?width=400&height=400&text=Profile&color=0070F3&textColor=FFFFFF",
+  "location": "San Francisco, CA",
+  "email": "contact@johndoe.dev",
+  "phone": "+1 (555) 123-4567",
+  "resumeUrl": "#",
+  "socialLinks": {
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "twitter": "https://twitter.com",
+    "instagram": "https://instagram.com",
+    "other": [
+      {
+        "name": "Portfolio",
+        "url": "https://example.com"
+      },
+      {
+        "name": "Blog",
+        "url": "https://example.com/blog"
+      }
+    ]
+  }
+} 

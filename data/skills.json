@@ -1,0 +1,177 @@
+[
+  {
+    "id": "skill-1",
+    "name": "JavaScript",
+    "icon": "/icons/javascript.svg",
+    "category": "Frontend",
+    "proficiency": 90
+  },
+  {
+    "id": "skill-2",
+    "name": "TypeScript",
+    "icon": "/icons/typescript.svg",
+    "category": "Frontend",
+    "proficiency": 85
+  },
+  {
+    "id": "skill-3",
+    "name": "React",
+    "icon": "/icons/react.svg",
+    "category": "Frontend",
+    "proficiency": 95
+  },
+  {
+    "id": "skill-4",
+    "name": "Next.js",
+    "icon": "/icons/nextjs.svg",
+    "category": "Frontend",
+    "proficiency": 90
+  },
+  {
+    "id": "skill-5",
+    "name": "Redux",
+    "icon": "/icons/redux.svg",
+    "category": "Frontend",
+    "proficiency": 85
+  },
+  {
+    "id": "skill-6",
+    "name": "HTML5",
+    "icon": "/icons/html5.svg",
+    "category": "Frontend",
+    "proficiency": 95
+  },
+  {
+    "id": "skill-7",
+    "name": "CSS3",
+    "icon": "/icons/css3.svg",
+    "category": "Frontend",
+    "proficiency": 90
+  },
+  {
+    "id": "skill-8",
+    "name": "Tailwind CSS",
+    "icon": "/icons/tailwindcss.svg",
+    "category": "Frontend",
+    "proficiency": 85
+  },
+  {
+    "id": "skill-9",
+    "name": "Node.js",
+    "icon": "/icons/nodejs.svg",
+    "category": "Backend",
+    "proficiency": 85
+  },
+  {
+    "id": "skill-10",
+    "name": "Express.js",
+    "icon": "/icons/express.svg",
+    "category": "Backend",
+    "proficiency": 80
+  },
+  {
+    "id": "skill-11",
+    "name": "MongoDB",
+    "icon": "/icons/mongodb.svg",
+    "category": "Backend",
+    "proficiency": 75
+  },
+  {
+    "id": "skill-12",
+    "name": "PostgreSQL",
+    "icon": "/icons/postgresql.svg",
+    "category": "Backend",
+    "proficiency": 70
+  },
+  {
+    "id": "skill-13",
+    "name": "GraphQL",
+    "icon": "/icons/graphql.svg",
+    "category": "Backend",
+    "proficiency": 75
+  },
+  {
+    "id": "skill-14",
+    "name": "REST API",
+    "icon": "/icons/api.svg",
+    "category": "Backend",
+    "proficiency": 90
+  },
+  {
+    "id": "skill-15",
+    "name": "Git",
+    "icon": "/icons/git.svg",
+    "category": "Tools",
+    "proficiency": 90
+  },
+  {
+    "id": "skill-16",
+    "name": "Docker",
+    "icon": "/icons/docker.svg",
+    "category": "DevOps",
+    "proficiency": 75
+  },
+  {
+    "id": "skill-17",
+    "name": "AWS",
+    "icon": "/icons/aws.svg",
+    "category": "DevOps",
+    "proficiency": 70
+  },
+  {
+    "id": "skill-18",
+    "name": "CI/CD",
+    "icon": "/icons/cicd.svg",
+    "category": "DevOps",
+    "proficiency": 80
+  },
+  {
+    "id": "skill-19",
+    "name": "Jest",
+    "icon": "/icons/jest.svg",
+    "category": "Testing",
+    "proficiency": 85
+  },
+  {
+    "id": "skill-20",
+    "name": "Cypress",
+    "icon": "/icons/cypress.svg",
+    "category": "Testing",
+    "proficiency": 80
+  },
+  {
+    "id": "skill-21",
+    "name": "Figma",
+    "icon": "/icons/figma.svg",
+    "category": "Design",
+    "proficiency": 75
+  },
+  {
+    "id": "skill-22",
+    "name": "Responsive Design",
+    "icon": "/icons/responsive.svg",
+    "category": "Design",
+    "proficiency": 90
+  },
+  {
+    "id": "skill-23",
+    "name": "Agile Methodology",
+    "icon": "/icons/agile.svg",
+    "category": "Soft Skills",
+    "proficiency": 85
+  },
+  {
+    "id": "skill-24",
+    "name": "Problem Solving",
+    "icon": "/icons/problem-solving.svg",
+    "category": "Soft Skills",
+    "proficiency": 95
+  },
+  {
+    "id": "skill-25",
+    "name": "Team Collaboration",
+    "icon": "/icons/collaboration.svg",
+    "category": "Soft Skills",
+    "proficiency": 90
+  }
+] 
