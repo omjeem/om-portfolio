@@ -29,7 +29,7 @@
     },
     {
       "name": "About",
-      "path": "/about",
+      "path": "/#about",
       "showInHeader": true,
       "showInFooter": true
     },
@@ -41,19 +41,19 @@
     },
     {
       "name": "Experience",
-      "path": "/experience",
+      "path": "/#experience",
       "showInHeader": true,
       "showInFooter": true
     },
     {
       "name": "Skills",
-      "path": "/skills",
+      "path": "/#skills",
       "showInHeader": true,
       "showInFooter": true
     },
     {
       "name": "Contact",
-      "path": "/contact",
+      "path": "/#contact",
       "showInHeader": true,
       "showInFooter": true
     }

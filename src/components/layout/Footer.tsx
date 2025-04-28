@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getFooterNavigation, getPersonalInfo } from "@/lib/data";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 
 // Load data
 const navigation = getFooterNavigation();
@@ -37,6 +37,15 @@ export default function Footer() {
                 aria-label="LinkedIn"
               >
                 <Linkedin size={20} />
+              </a>
+              <a
+                href={personalInfo.socialLinks.twitter}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-foreground/70 hover:text-foreground transition-colors"
+                aria-label="LinkedIn"
+              >
+                <Twitter size={20} />
               </a>
               <a
                 href={`mailto:${personalInfo.email}`}

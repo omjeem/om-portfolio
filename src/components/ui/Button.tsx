@@ -67,7 +67,7 @@ const ButtonComponent = forwardRef<HTMLButtonElement, ButtonProps>(
         className={`
           inline-flex items-center justify-center font-medium transition-colors
           focus:outline-none disabled:opacity-50 disabled:pointer-events-none
-          ${variantStyles[variant]}
+          ghost
           ${sizeStyles[size]}
           ${fullWidth ? "w-full" : ""}
           ${className}

@@ -7,7 +7,9 @@
     "longDescription": "Lit Law is a scalable AI-driven web platform tailored for the Indian legal ecosystem. I developed the backend architecture for chat handling, designed an efficient chat schema, and created APIs for session management. The frontend was enhanced using Next.js and Tailwind CSS, with state management through Redux. Code quality and structure were maintained with tools like Husky and Lint-staged.",
     "thumbnailUrl": "/api/placeholder?width=600&height=400&text=Lit%20Law&color=0070F3&textColor=FFFFFF",
     "imageUrls": [
-      "/api/placeholder?width=800&height=600&text=Lit%20Law-1&color=0070F3&textColor=FFFFFF"
+      "/projects/litLaw1.png",
+      "/projects/litLaw2.png",
+      "/projects/litLaw3.png"
     ],
     "technologies": ["Next.js", "Node.js", "Redux", "Tailwind CSS", "LLMs"],
     "category": ["AI", "Web Development", "Full Stack"],
@@ -61,7 +63,11 @@
     "longDescription": "I migrated Legal Wires, a leading legal news portal, from WordPress to Ghost CMS, handling over 8000 blog posts with zero data loss. Developed a custom Ghost theme using HTML, CSS, and JavaScript, and integrated an AI chatbot to assist users in legal queries, greatly boosting user engagement.",
     "thumbnailUrl": "/api/placeholder?width=600&height=400&text=Legal%20Wires&color=F9A825&textColor=FFFFFF",
     "imageUrls": [
-      "/api/placeholder?width=800&height=600&text=Legal%20Wires-1&color=F9A825&textColor=FFFFFF"
+      "/projects/wires1.png",
+      "/projects/wires2.png",
+      "/projects/wires3.png",
+      "/projects/wires4.png",
+      "/projects/wires5.png"
     ],
     "technologies": ["Ghost CMS", "HTML", "CSS", "JavaScript", "Custom APIs"],
     "category": ["CMS Development", "Migration", "Web Development"],

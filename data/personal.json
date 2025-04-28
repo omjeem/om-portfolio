@@ -4,20 +4,20 @@
   "bio": "Full Stack Developer passionate about creating scalable, AI-driven, and user-centric web applications.",
   "longBio": "I'm a Full Stack Developer with expertise in JavaScript, TypeScript, React, Node.js, and cloud services. I have built and scaled web platforms like Lit Law and Lit Sign, integrating AI capabilities tailored for the Indian legal ecosystem. I specialize in backend architecture, frontend development, CMS migrations, and delivering real-world solutions. Outside of development, I actively explore new technologies, work on side projects, and keep improving my problem-solving skills through coding challenges.",
   "headline": "Transforming ideas into scalable digital solutions",
-  "profileImage": "/api/placeholder?width=400&height=400&text=Om%20Jee&color=1E90FF&textColor=FFFFFF",
+  "profileImage": "/data/om.png",
   "location": "Gurugram, Haryana, India",
   "email": "omjeem558@gmail.com",
   "phone": "+91 9411097707",
   "resumeUrl": "#", 
   "socialLinks": {
-    "github": "https://github.com/OmjeeM",
-    "linkedin": "https://linkedin.com/in/om-jee-mishra-629795203",
-    "twitter": "",
+    "github": "https://github.com/omjeem",
+    "linkedin": "https://linkedin.com/in/omjeem",
+    "twitter": "https://twitter.com/om_jee_mishra",
     "instagram": "",
     "other": [
       {
         "name": "LeetCode",
-        "url": "https://leetcode.com/OmjeeMishra/"
+        "url": "https://leetcode.com/omjeem/"
       }
     ]
   }

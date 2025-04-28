@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Github, Linkedin, Mail, Twitter } from "lucide-react";
 import { getPersonalInfo } from "@/lib/data";
 import { ButtonLink } from "@/components/ui/Button";
 import { motion } from "framer-motion";
@@ -63,7 +63,7 @@ export default function Hero() {
               <ButtonLink href="/projects" icon={ArrowRight} iconPosition="right">
                 View My Work
               </ButtonLink>
-              <ButtonLink href="/contact" variant="outline">
+              <ButtonLink href="/#contact" variant="outline">
                 Get in Touch
               </ButtonLink>
             </div>
@@ -85,6 +85,15 @@ export default function Hero() {
                 aria-label="LinkedIn"
               >
                 <Linkedin size={24} />
+              </a>
+              <a
+                href={personalInfo.socialLinks.twitter}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-foreground/70 hover:text-foreground transition-colors p-2 rounded-full hover:bg-foreground/5"
+                aria-label="LinkedIn"
+              >
+                <Twitter size={24} />
               </a>
               <a
                 href={`mailto:${personalInfo.email}`}

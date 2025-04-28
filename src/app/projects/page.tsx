@@ -21,6 +21,7 @@ export default function ProjectsPage() {
           title="My Projects"
           subtitle="A showcase of my work, side projects, and open source contributions"
           centered
+          className=""
         />
 
         {/* <ProjectFilters categories={categories} /> */}

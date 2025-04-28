@@ -61,6 +61,7 @@ export default function Contact() {
         title="Get In Touch" 
         subtitle="Have a question or want to work together? Feel free to reach out!"
         centered
+        className="flex flex-col items-center text-center"
       />
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
