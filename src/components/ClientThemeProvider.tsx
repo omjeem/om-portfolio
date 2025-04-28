@@ -5,6 +5,7 @@ import ThemeProvider from "@/components/ThemeProvider";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import ScrollToTop from "@/components/ui/ScrollToTop";
+import { Toaster } from "react-hot-toast";
 
 export default function ClientThemeProvider({ 
   children 
@@ -50,6 +51,7 @@ export default function ClientThemeProvider({
   // Return full UI once mounted
   return (
     <ThemeProvider>
+      <Toaster/>
       <Header />
       <main className="flex-grow">
         {children}

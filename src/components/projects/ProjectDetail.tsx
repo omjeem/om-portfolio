@@ -191,9 +191,9 @@ export default function ProjectDetail({ project }: ProjectDetailProps) {
           {project.challenges?.length > 0 && (
             <div className="bg-card-bg border border-card-border rounded-lg p-6 shadow-sm">
               <h2 className="text-xl font-bold mb-4 flex items-center">
-                <span className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center mr-2">
+                {/* <span className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center mr-2">
                   <span className="text-primary font-semibold">C</span>
-                </span>
+                </span> */}
                 Challenges
               </h2>
               <ul className="space-y-3 list-none">
@@ -210,9 +210,9 @@ export default function ProjectDetail({ project }: ProjectDetailProps) {
           {project.solutions?.length > 0 && (
             <div className="bg-card-bg border border-card-border rounded-lg p-6 shadow-sm">
               <h2 className="text-xl font-bold mb-4 flex items-center">
-                <span className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center mr-2">
+                {/* <span className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center mr-2">
                   <span className="text-primary font-semibold">S</span>
-                </span>
+                </span> */}
                 Solutions
               </h2>
               <ul className="space-y-3 list-none">

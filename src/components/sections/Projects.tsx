@@ -75,6 +75,7 @@ export default function Projects() {
 
   // Limit visible projects
   const displayedProjects = sortedProjects.slice(0, visibleProjects);
+  console.log("Displayed projects: >>> ", displayedProjects);
   
   // Load more projects
   const handleLoadMore = () => {

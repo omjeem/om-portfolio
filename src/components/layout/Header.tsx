@@ -121,10 +121,10 @@ export default function Header() {
           </button>
         </div>
       </div>
-
+              
       {/* Mobile Navigation Menu */}
       {isMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-background border-b border-foreground/10 shadow-lg">
+        <div className="md:hidden absolute top-full left-0 right-0 z-10 bg-black text-white dark:bg-white dark:text-black border-b border-foreground/10 shadow-lg">
           <nav className="container mx-auto py-4 px-4 flex flex-col">
             {navigation.map((item) => (
               <Link

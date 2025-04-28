@@ -40,7 +40,7 @@ export function mapProjectData(project: ProjectType): Project {
     slug: project.slug,
     title: project.title,
     description: project.description,
-    image: project.thumbnailUrl,
+    image: project.imageUrls?.[0] || project.thumbnailUrl, // Use first image or thumbnail
     link: project.liveUrl,
     github: project.githubUrl,
     technologies: project.technologies,
@@ -57,7 +57,7 @@ interface ProjectCardProps {
 
 export function ProjectCard({ project, compact = false, index = 0 }: ProjectCardProps) {
   const [isHovering, setIsHovering] = useState(false);
-
+  console.log("ProjectCard rendered with project:", project);
   return (
     <motion.div
       variants={fadeIn("up", 0.1 * (index + 1))}

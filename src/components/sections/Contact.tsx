@@ -5,9 +5,15 @@ import { getPersonalInfo } from "@/lib/data";
 import Section, { SectionHeader } from "@/components/ui/Section";
 import { Button } from "@/components/ui/Button";
 import { Github, Linkedin, Mail, MapPin, Send } from "lucide-react";
+import emailjs from '@emailjs/browser';
+
 
 // Load data
 const personalInfo = getPersonalInfo();
+// EmailJS configuration
+const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "";
+const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "";
+const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "";
 
 export default function Contact() {
   const [formState, setFormState] = useState({
@@ -16,7 +22,7 @@ export default function Contact() {
     subject: "",
     message: "",
   });
-  
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitResult, setSubmitResult] = useState<{
     success: boolean;
@@ -32,43 +38,68 @@ export default function Contact() {
     });
   };
 
+  const sendEmail = async () => {
+    const templateParams: any = {
+      from_name: formState.name,
+      from_email: formState.email,
+      to_name: "Om Jee Mishra",
+      subject: formState.subject,
+      message: formState.message,
+    };
+
+    const response = await emailjs.send(serviceId, templateId, templateParams, {
+      publicKey: publicKey,
+    })
+    console.log("Email response is ", response)
+
+  };
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitResult(null);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    console.log("Form submitted:", formState);
+    try {
+      await sendEmail()
 
-    setIsSubmitting(false);
-    setSubmitResult({
-      success: true,
-      message: "Thank you for your message! I'll get back to you soon.",
-    });
-
-    // Reset form
-    setFormState({
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-    });
+      setIsSubmitting(false);
+      setSubmitResult({
+        success: true,
+        message: "Thank you for your message! I'll get back to you soon.",
+      });
+      // Reset form
+      setFormState({
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+      });
+    } catch (error) {
+      console.log("Error in sending email", error)
+      setSubmitResult({
+        success: false,
+        message: "Sorry, something went wrong while sending your message. Please feel free to reach out at omjeem558@gmail.com.",
+      });
+    } finally{
+      setIsSubmitting(false);
+    }
   };
 
   return (
     <Section id="contact">
-      <SectionHeader 
-        title="Get In Touch" 
+      <SectionHeader
+        title="Get In Touch"
         subtitle="Have a question or want to work together? Feel free to reach out!"
         centered
         className="flex flex-col items-center text-center"
       />
-      
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
         {/* Contact Info */}
         <div>
           <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
-          
+
           <div className="space-y-6">
             <div className="flex items-start gap-4">
               <div className="bg-primary/10 p-3 rounded-full text-primary">
@@ -76,7 +107,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4 className="font-semibold mb-1">Email</h4>
-                <a 
+                <a
                   href={`mailto:${personalInfo.email}`}
                   className="text-foreground/80 hover:text-primary transition-colors"
                 >
@@ -84,7 +115,7 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-            
+
             <div className="flex items-start gap-4">
               <div className="bg-primary/10 p-3 rounded-full text-primary">
                 <MapPin size={24} />
@@ -94,14 +125,14 @@ export default function Contact() {
                 <p className="text-foreground/80">{personalInfo.location}</p>
               </div>
             </div>
-            
+
             <div className="flex items-start gap-4">
               <div className="bg-primary/10 p-3 rounded-full text-primary">
                 <Linkedin size={24} />
               </div>
               <div>
                 <h4 className="font-semibold mb-1">LinkedIn</h4>
-                <a 
+                <a
                   href={personalInfo.socialLinks.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -111,14 +142,14 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-            
+
             <div className="flex items-start gap-4">
               <div className="bg-primary/10 p-3 rounded-full text-primary">
                 <Github size={24} />
               </div>
               <div>
                 <h4 className="font-semibold mb-1">GitHub</h4>
-                <a 
+                <a
                   href={personalInfo.socialLinks.github}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -130,11 +161,11 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        
+
         {/* Contact Form */}
         <div>
           <h3 className="text-2xl font-bold mb-6">Send Me a Message</h3>
-          
+
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label htmlFor="name" className="block text-sm font-medium mb-1">
@@ -150,7 +181,7 @@ export default function Contact() {
                 required
               />
             </div>
-            
+
             <div>
               <label htmlFor="email" className="block text-sm font-medium mb-1">
                 Your Email
@@ -165,7 +196,7 @@ export default function Contact() {
                 required
               />
             </div>
-            
+
             <div>
               <label htmlFor="subject" className="block text-sm font-medium mb-1">
                 Subject
@@ -180,7 +211,7 @@ export default function Contact() {
                 required
               />
             </div>
-            
+
             <div>
               <label htmlFor="message" className="block text-sm font-medium mb-1">
                 Message
@@ -195,7 +226,7 @@ export default function Contact() {
                 required
               />
             </div>
-            
+
             <div>
               <Button
                 type="submit"
@@ -206,14 +237,13 @@ export default function Contact() {
                 {isSubmitting ? "Sending..." : "Send Message"}
               </Button>
             </div>
-            
+
             {submitResult && (
-              <div 
-                className={`p-4 rounded-md ${
-                  submitResult.success 
-                    ? "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300" 
-                    : "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300"
-                }`}
+              <div
+                className={`p-4 rounded-md ${submitResult.success
+                  ? "bg-green-100 text-green-800"
+                  : "bg-red-100 text-red-800 "
+                  }`}
               >
                 {submitResult.message}
               </div>
