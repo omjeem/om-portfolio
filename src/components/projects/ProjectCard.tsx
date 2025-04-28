@@ -65,6 +65,8 @@ export function ProjectCard({ project, compact = false, index = 0 }: ProjectCard
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
       className="h-full"
+      onMouseEnter={() => setIsHovering(true)}
+      onMouseLeave={() => setIsHovering(false)}
     >
       <Card 
         className={cn(
@@ -72,8 +74,6 @@ export function ProjectCard({ project, compact = false, index = 0 }: ProjectCard
           // Only apply featured styling when not in compact mode
           !compact && project.featured && "sm:col-span-2"
         )}
-        onMouseEnter={() => setIsHovering(true)}
-        onMouseLeave={() => setIsHovering(false)}
       >
         <div className={cn(
           "relative w-full overflow-hidden",

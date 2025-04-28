@@ -29,12 +29,12 @@ export default function Error({ error, reset }: ErrorProps) {
             Go to home
           </Button>
         </div>
-        {process.env.NODE_ENV === "development" && (
+        {/* {process.env.NODE_ENV === "development" && (
           <div className="mt-8 p-4 bg-red-50 dark:bg-red-900/20 text-red-800 dark:text-red-300 text-sm rounded text-left overflow-auto">
             <p className="font-bold">Error details:</p>
             <pre className="mt-2">{error.message}</pre>
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );

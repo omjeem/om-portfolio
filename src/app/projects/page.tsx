@@ -23,7 +23,7 @@ export default function ProjectsPage() {
           centered
         />
 
-        <ProjectFilters categories={categories} />
+        {/* <ProjectFilters categories={categories} /> */}
         
         <ProjectsGrid projects={projects} />
       </Section>

@@ -1,45 +1,48 @@
 [
   {
     "id": "education-1",
-    "institution": "Stanford University",
-    "degree": "Master of Science",
-    "field": "Computer Science",
-    "startDate": "2016-09-01",
-    "endDate": "2018-06-15",
-    "location": "Stanford, CA",
-    "description": "Specialized in Artificial Intelligence and Web Technologies with a focus on modern application architecture.",
+    "institution": "GL Bajaj Group of Institutions, Mathura",
+    "degree": "Bachelor of Technology",
+    "field": "Computer Science Engineering",
+    "startDate": "2020-08-01",
+    "endDate": "2024-06-01",
+    "location": "Mathura, Uttar Pradesh, India",
+    "description": "Completed a B.Tech program with a focus on core computer science concepts, software development, and modern web technologies.",
     "achievements": [
-      "Graduated with honors (GPA: 3.9/4.0)",
-      "Teaching Assistant for Advanced Web Development course",
-      "Led research project on efficient client-side rendering techniques"
+      "Graduated with a CGPA of 8.01",
+      "Engaged in multiple project-based learning initiatives",
+      "Strengthened expertise in Full Stack Development and AI integration"
     ],
-    "logoUrl": "/api/placeholder?width=200&height=200&text=Stanford&color=8C1515&textColor=FFFFFF"
+    "logoUrl": "/api/placeholder?width=200&height=200&text=GLBajaj&color=000080&textColor=FFFFFF"
   },
   {
     "id": "education-2",
-    "institution": "University of California, Berkeley",
-    "degree": "Bachelor of Science",
-    "field": "Computer Engineering",
-    "startDate": "2012-09-01",
-    "endDate": "2016-05-30",
-    "location": "Berkeley, CA",
-    "description": "Comprehensive program covering hardware and software aspects of computer systems with emphasis on software development.",
+    "institution": "Paradise Public School, Mainpuri",
+    "degree": "Senior Secondary (12th Standard)",
+    "field": "Physics, Chemistry, Mathematics (PCM)",
+    "startDate": "2018-04-01",
+    "endDate": "2019-03-31",
+    "location": "Mainpuri, Uttar Pradesh, India",
+    "description": "Completed Senior Secondary education with a focus on Physics, Chemistry, and Mathematics.",
     "achievements": [
-      "Dean's List for all semesters",
-      "Senior thesis: 'Optimizing React Application Performance'",
-      "Active member of Coding Club and Hackathon Team"
+      "Secured 88.8% in CBSE Board Examination",
+      "Active participant in science exhibitions and Olympiads"
     ],
-    "logoUrl": "/api/placeholder?width=200&height=200&text=Berkeley&color=003262&textColor=FFFFFF"
+    "logoUrl": "/api/placeholder?width=200&height=200&text=Paradise&color=008000&textColor=FFFFFF"
   },
   {
-    "id": "certification-1",
-    "institution": "AWS",
-    "degree": "Certification",
-    "field": "AWS Certified Solutions Architect",
-    "startDate": "2019-01-15",
-    "endDate": "2019-02-28",
-    "location": "Online",
-    "description": "Professional certification validating expertise in designing distributed systems on AWS.",
-    "logoUrl": "/api/placeholder?width=200&height=200&text=AWS&color=232F3E&textColor=FF9900"
+    "id": "education-3",
+    "institution": "C.R.B Memorial Sr. Sec. School, Mainpuri",
+    "degree": "Secondary (10th Standard)",
+    "field": "Science",
+    "startDate": "2016-04-01",
+    "endDate": "2017-03-31",
+    "location": "Mainpuri, Uttar Pradesh, India",
+    "description": "Completed Secondary education with a strong foundation in Science and Mathematics.",
+    "achievements": [
+      "Achieved 83.8% in CBSE Board Examination",
+      "Won awards for science projects and academic excellence"
+    ],
+    "logoUrl": "/api/placeholder?width=200&height=200&text=CRBMemorial&color=FFA500&textColor=000000"
   }
-] 
+]

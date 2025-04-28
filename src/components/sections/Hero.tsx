@@ -48,7 +48,7 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              <span className="block">Hello, I&apos;m</span>
+              <span className="block">Hello, I&apos;m Om</span>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
                 {personalInfo.name}
               </span>

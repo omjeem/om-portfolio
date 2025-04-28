@@ -1,123 +1,110 @@
 [
   {
     "id": "project-1",
-    "slug": "e-commerce-platform",
-    "title": "E-Commerce Platform",
-    "description": "A full-featured e-commerce platform with product management, cart functionality, payment processing, and order tracking.",
-    "longDescription": "This e-commerce platform was built from the ground up to provide a seamless shopping experience. It features a responsive design, real-time inventory updates, secure payment processing with Stripe, comprehensive admin dashboard for product and order management, user authentication and profiles, wishlist functionality, and detailed analytics for business insights. The platform was optimized for performance with server-side rendering and efficient data caching strategies.",
-    "thumbnailUrl": "/api/placeholder?width=600&height=400&text=E-Commerce&color=0070F3&textColor=FFFFFF",
+    "slug": "lit-law",
+    "title": "Lit Law",
+    "description": "An AI-powered legal platform built to handle legal queries using Large Language Models (LLMs).",
+    "longDescription": "Lit Law is a scalable AI-driven web platform tailored for the Indian legal ecosystem. I developed the backend architecture for chat handling, designed an efficient chat schema, and created APIs for session management. The frontend was enhanced using Next.js and Tailwind CSS, with state management through Redux. Code quality and structure were maintained with tools like Husky and Lint-staged.",
+    "thumbnailUrl": "/api/placeholder?width=600&height=400&text=Lit%20Law&color=0070F3&textColor=FFFFFF",
     "imageUrls": [
-      "/api/placeholder?width=800&height=600&text=E-Commerce-1&color=0070F3&textColor=FFFFFF",
-      "/api/placeholder?width=800&height=600&text=E-Commerce-2&color=0070F3&textColor=FFFFFF",
-      "/api/placeholder?width=800&height=600&text=E-Commerce-3&color=0070F3&textColor=FFFFFF"
+      "/api/placeholder?width=800&height=600&text=Lit%20Law-1&color=0070F3&textColor=FFFFFF"
     ],
-    "technologies": ["React", "Node.js", "Express", "MongoDB", "Redux", "Stripe API", "AWS S3", "Docker"],
-    "category": ["Web Development", "Full Stack", "E-Commerce"],
-    "githubUrl": "https://github.com",
-    "liveUrl": "https://example.com",
+    "technologies": ["Next.js", "Node.js", "Redux", "Tailwind CSS", "LLMs"],
+    "category": ["AI", "Web Development", "Full Stack"],
+    "githubUrl": "",
+    "liveUrl": "https://lit.law/",
     "featured": true,
-    "startDate": "2021-03-01",
-    "endDate": "2021-07-15",
-    "role": "Lead Developer",
+    "startDate": "2024-07-01",
+    "endDate": null,
+    "role": "Backend and Frontend Developer",
     "challenges": [
-      "Implementing real-time inventory management across multiple stores",
-      "Ensuring secure payment processing with PCI compliance",
-      "Optimizing performance for image-heavy product listings"
+      "Designing a scalable chat-based architecture for legal queries",
+      "Integrating AI features while ensuring accuracy and performance"
     ],
     "solutions": [
-      "Utilized WebSockets for real-time updates to inventory levels",
-      "Implemented Stripe's secure elements for handling sensitive payment data",
-      "Created a custom image optimization pipeline with lazy loading and CDN distribution"
+      "Implemented scalable session-based chat schema",
+      "Integrated LLMs to provide AI-driven responses to legal questions"
     ]
   },
   {
     "id": "project-2",
-    "slug": "task-management-system",
-    "title": "Task Management System",
-    "description": "A collaborative task management application with real-time updates, team workspaces, and progress tracking.",
-    "longDescription": "This task management system was designed to improve team productivity by providing intuitive collaboration features. Users can create personal and team workspaces, assign tasks with priority levels, set deadlines, track progress through customizable dashboards, and receive notifications for important updates. The system includes time tracking, file attachments, commenting, and integration with popular calendar apps.",
-    "thumbnailUrl": "/api/placeholder?width=600&height=400&text=Task-Manager&color=6D28D9&textColor=FFFFFF",
+    "slug": "lit-sign",
+    "title": "Lit Sign",
+    "description": "AI Legal Contract Builder and Signer with multi-party collaboration features.",
+    "longDescription": "Lit Sign is a full-stack platform for AI-assisted legal document creation and digital signing. I developed the Node.js backend handling contract generation, versioning, multi-party signing, and LLM-based clause negotiation. The frontend, built with React and Redux, enables users to manage contracts seamlessly.",
+    "thumbnailUrl": "/api/placeholder?width=600&height=400&text=Lit%20Sign&color=20C997&textColor=FFFFFF",
     "imageUrls": [
-      "/api/placeholder?width=800&height=600&text=Task-Manager-1&color=6D28D9&textColor=FFFFFF",
-      "/api/placeholder?width=800&height=600&text=Task-Manager-2&color=6D28D9&textColor=FFFFFF"
+      "/api/placeholder?width=800&height=600&text=Lit%20Sign-1&color=20C997&textColor=FFFFFF"
     ],
-    "technologies": ["React", "TypeScript", "Firebase", "Material UI", "Redux", "PWA"],
-    "category": ["Web Application", "SaaS", "Productivity"],
-    "githubUrl": "https://github.com",
-    "liveUrl": "https://example.com",
+    "technologies": ["React", "Node.js", "Redux", "Express.js", "LLMs"],
+    "category": ["AI", "Web Development", "Full Stack"],
+    "githubUrl": "",
+    "liveUrl": "https://litsignstage.lit.law/",
     "featured": true,
-    "startDate": "2020-09-15",
-    "endDate": "2021-01-30",
-    "role": "Frontend Developer",
+    "startDate": "2024-07-01",
+    "endDate": null,
+    "role": "Full Stack Developer",
     "challenges": [
-      "Creating a responsive and intuitive UI for complex task relationships",
-      "Implementing real-time collaboration without performance degradation",
-      "Building a flexible permission system for different user roles"
+      "Implementing AI-driven clause negotiation between parties",
+      "Handling real-time contract updates with multiple signers"
     ],
     "solutions": [
-      "Designed a drag-and-drop interface with clear visual hierarchies",
-      "Used Firebase Realtime Database with efficient data structuring",
-      "Implemented a granular role-based access control system"
+      "Built chat-based negotiation system backed by LLMs",
+      "Designed secure multi-party signing workflows"
     ]
   },
   {
     "id": "project-3",
-    "slug": "health-fitness-tracker",
-    "title": "Health & Fitness Tracker",
-    "description": "A mobile app for tracking fitness activities, nutrition, and health metrics with personalized insights.",
-    "longDescription": "The Health & Fitness Tracker is a comprehensive mobile application that helps users monitor their fitness journey. It provides an intuitive interface for tracking workouts, logging meals, and monitoring various health metrics like weight, heart rate, and sleep patterns. The app generates personalized insights and recommendations based on user data, helping them achieve their fitness goals more effectively. It features social sharing capabilities, challenges, and achievements to keep users motivated.",
-    "thumbnailUrl": "/api/placeholder?width=600&height=400&text=Fitness-App&color=F97316&textColor=FFFFFF",
+    "slug": "legal-wires",
+    "title": "Legal Wires Migration",
+    "description": "Migrated 8000+ posts from WordPress to Ghost CMS with a custom-built theme and AI chatbot integration.",
+    "longDescription": "I migrated Legal Wires, a leading legal news portal, from WordPress to Ghost CMS, handling over 8000 blog posts with zero data loss. Developed a custom Ghost theme using HTML, CSS, and JavaScript, and integrated an AI chatbot to assist users in legal queries, greatly boosting user engagement.",
+    "thumbnailUrl": "/api/placeholder?width=600&height=400&text=Legal%20Wires&color=F9A825&textColor=FFFFFF",
     "imageUrls": [
-      "/api/placeholder?width=800&height=600&text=Fitness-App-1&color=F97316&textColor=FFFFFF",
-      "/api/placeholder?width=800&height=600&text=Fitness-App-2&color=F97316&textColor=FFFFFF"
+      "/api/placeholder?width=800&height=600&text=Legal%20Wires-1&color=F9A825&textColor=FFFFFF"
     ],
-    "technologies": ["React Native", "Node.js", "Express", "MongoDB", "Chart.js", "Firebase Auth"],
-    "category": ["Mobile App", "Health Tech"],
-    "githubUrl": "https://github.com",
-    "liveUrl": "https://example.com",
+    "technologies": ["Ghost CMS", "HTML", "CSS", "JavaScript", "Custom APIs"],
+    "category": ["CMS Development", "Migration", "Web Development"],
+    "githubUrl": "",
+    "liveUrl": "https://legal-wires.com/",
     "featured": false,
-    "startDate": "2020-05-01",
-    "endDate": "2020-08-30",
-    "role": "Full Stack Developer",
+    "startDate": "2024-07-01",
+    "endDate": null,
+    "role": "Developer and Migration Specialist",
     "challenges": [
-      "Ensuring accurate data collection from various fitness devices and APIs",
-      "Creating intuitive data visualizations for complex health metrics",
-      "Optimizing battery usage while tracking user activities"
+      "Ensuring zero downtime during migration",
+      "Preserving SEO and URL structures"
     ],
     "solutions": [
-      "Implemented a unified data collection system with multiple API integrations",
-      "Designed custom visualization components with Chart.js for different metrics",
-      "Used efficient background processing techniques to minimize battery drain"
+      "Built custom migration scripts using Ghost API",
+      "Developed responsive and SEO-friendly Ghost theme"
     ]
   },
   {
     "id": "project-4",
-    "slug": "weather-dashboard",
-    "title": "Weather Dashboard",
-    "description": "A real-time weather dashboard with location-based forecasts, historical data, and customizable alerts.",
-    "longDescription": "The Weather Dashboard provides users with comprehensive weather information using data from multiple meteorological sources. It features an interactive map interface, hourly and 7-day forecasts, severe weather alerts, and historical weather data analysis. Users can customize their dashboard, save favorite locations, and set up notifications for specific weather conditions. The application was built with performance and accuracy in mind, ensuring reliable weather information delivery.",
-    "thumbnailUrl": "/api/placeholder?width=600&height=400&text=Weather-App&color=38BDF8&textColor=FFFFFF",
+    "slug": "dns-manager-hub",
+    "title": "DNS Manager Hub",
+    "description": "A MERN stack app for efficient domain and DNS record management using AWS Route 53.",
+    "longDescription": "DNS Manager Hub allows users to manage domains and DNS records with AWS Route 53 easily. Built a user-friendly dashboard for domain operations, including CRUD functionality, filters, search, and bulk uploads. Integrated secure authentication and developed APIs for interacting with AWS services.",
+    "thumbnailUrl": "/api/placeholder?width=600&height=400&text=DNS%20Manager&color=FF5733&textColor=FFFFFF",
     "imageUrls": [
-      "/api/placeholder?width=800&height=600&text=Weather-App-1&color=38BDF8&textColor=FFFFFF",
-      "/api/placeholder?width=800&height=600&text=Weather-App-2&color=38BDF8&textColor=FFFFFF"
+      "/api/placeholder?width=800&height=600&text=DNS%20Manager-1&color=FF5733&textColor=FFFFFF"
     ],
-    "technologies": ["Vue.js", "Express", "OpenWeatherMap API", "D3.js", "Progressive Web App"],
-    "category": ["Web Application", "Data Visualization"],
-    "githubUrl": "https://github.com",
-    "liveUrl": "https://example.com",
+    "technologies": ["MERN Stack", "AWS Route 53", "MongoDB", "Express.js", "React"],
+    "category": ["Web Development", "Full Stack"],
+    "githubUrl": "https://github.com/OmjeeM/DNS-Manager",
+    "liveUrl": "#",
     "featured": false,
-    "startDate": "2020-01-15",
-    "endDate": "2020-03-20",
-    "role": "Frontend Developer",
+    "startDate": "2023-01-01",
+    "endDate": "2023-04-30",
+    "role": "Full Stack Developer",
     "challenges": [
-      "Processing and visualizing large amounts of weather data efficiently",
-      "Creating an intuitive UI for complex meteorological information",
-      "Ensuring the application works offline with up-to-date data"
+      "Integrating AWS Route 53 APIs securely",
+      "Managing bulk DNS record uploads efficiently"
     ],
     "solutions": [
-      "Implemented data streaming and efficient caching strategies",
-      "Designed a modular dashboard with customizable widgets",
-      "Used service workers and IndexedDB for offline functionality"
+      "Developed secure authentication with JWT",
+      "Built efficient bulk record management with optimized backend queries"
     ]
   }
-] 
+]

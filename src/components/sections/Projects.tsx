@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 import Section, { SectionHeader } from "@/components/ui/Section";
 import ProjectFilters from "@/components/projects/ProjectFilters";
-import ProjectCard from "@/components/projects/ProjectCard";
+import ProjectCard, { mapProjectData } from "@/components/projects/ProjectCard";
 import { Container } from "@/components/ui/Container";
 import { fadeIn, staggerContainer } from "@/lib/animations";
 import { Button } from "@/components/ui/Button";
@@ -92,13 +92,12 @@ export default function Projects() {
         >
           <SectionHeader
             title="Projects"
-            subtitle="Showcasing my work"
-            description="A collection of projects that demonstrate my skills and experience in building web applications and solving real-world problems."
+            subtitle="Showcasing my work and demonstrating my skills in building scalable web applications"
           />
         </motion.div>
 
         {/* Project Filters */}
-        {categories.length > 0 && (
+        {/* {categories.length > 0 && (
           <motion.div
             variants={fadeIn("up", 0.4)}
             initial="hidden"
@@ -108,7 +107,7 @@ export default function Projects() {
           >
             <ProjectFilters categories={categories} />
           </motion.div>
-        )}
+        )} */}
 
         {/* Error State */}
         {error && (
@@ -142,7 +141,7 @@ export default function Projects() {
                   key={project.id}
                   variants={fadeIn("up", 0.1 * (index + 1))}
                 >
-                  <ProjectCard project={project} />
+                  <ProjectCard project={mapProjectData(project)} />
                 </motion.div>
               ))}
             </motion.div>

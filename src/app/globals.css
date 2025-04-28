@@ -14,6 +14,11 @@
   --muted: #6b7280;
   --muted-foreground: #4b5563;
   
+  /* Button specific colors */
+  --btn-primary-text: #ffffff;
+  --btn-outline-text: #171717;
+  --btn-outline-border: rgba(23, 23, 23, 0.2);
+  
   /* Typography */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
@@ -27,6 +32,10 @@
   --card-border: #2d2d2d;
   --muted: #9ca3af;
   --muted-foreground: #d1d5db;
+  
+  /* Button specific colors for dark mode */
+  --btn-outline-text: #ffffff;
+  --btn-outline-border: rgba(255, 255, 255, 0.3);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -38,6 +47,10 @@
     --card-border: #2d2d2d;
     --muted: #9ca3af;
     --muted-foreground: #d1d5db;
+    
+    /* Button specific colors for dark mode */
+    --btn-outline-text: #ffffff;
+    --btn-outline-border: rgba(255, 255, 255, 0.3);
   }
 }
 
@@ -45,6 +58,25 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans);
+}
+
+/* Button styles for Hero section buttons specifically */
+/* These classes should only be applied to buttons that need special styling */
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--btn-primary-text) !important;
+  font-weight: 500;
+}
+
+.btn-outline {
+  color: var(--btn-outline-text) !important; 
+  border-color: var(--btn-outline-border);
+  border-width: 2px;
+}
+
+.dark .btn-outline {
+  color: var(--btn-outline-text) !important;
+  border-color: var(--btn-outline-border);
 }
 
 /* Common Utility Classes */

@@ -47,8 +47,8 @@ export interface Project {
   startDate: string;
   endDate?: string;
   role?: string;
-  challenges?: string[];
-  solutions?: string[];
+  challenges: string[];
+  solutions: string[];
 }
 
 export interface Skill {
@@ -65,7 +65,7 @@ export interface Experience {
   position: string;
   location: string;
   startDate: string;
-  endDate?: string;
+  endDate?: string | null;
   description: string;
   responsibilities: string[];
   achievements?: string[];

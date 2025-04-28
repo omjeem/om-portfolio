@@ -1,28 +1,24 @@
 {
   "name": "Om Jee Mishra",
   "title": "Full Stack Developer",
-  "bio": "Passionate Full Stack Developer with expertise in modern web technologies, dedicated to creating elegant solutions to complex problems.",
-  "longBio": "I'm a Full Stack Developer with over 5 years of experience building web applications with JavaScript, TypeScript, React, and Node.js. I'm passionate about creating clean, efficient, and user-friendly solutions that solve real-world problems. My background in both frontend and backend development allows me to approach projects with a comprehensive understanding of the entire development lifecycle, from concept to deployment. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through tech blogs and community events.",
-  "headline": "Building digital experiences that make a difference",
-  "profileImage": "/api/placeholder?width=400&height=400&text=Profile&color=0070F3&textColor=FFFFFF",
-  "location": "San Francisco, CA",
-  "email": "contact@johndoe.dev",
-  "phone": "+1 (555) 123-4567",
-  "resumeUrl": "#",
+  "bio": "Full Stack Developer passionate about creating scalable, AI-driven, and user-centric web applications.",
+  "longBio": "I'm a Full Stack Developer with expertise in JavaScript, TypeScript, React, Node.js, and cloud services. I have built and scaled web platforms like Lit Law and Lit Sign, integrating AI capabilities tailored for the Indian legal ecosystem. I specialize in backend architecture, frontend development, CMS migrations, and delivering real-world solutions. Outside of development, I actively explore new technologies, work on side projects, and keep improving my problem-solving skills through coding challenges.",
+  "headline": "Transforming ideas into scalable digital solutions",
+  "profileImage": "/api/placeholder?width=400&height=400&text=Om%20Jee&color=1E90FF&textColor=FFFFFF",
+  "location": "Gurugram, Haryana, India",
+  "email": "omjeem558@gmail.com",
+  "phone": "+91 9411097707",
+  "resumeUrl": "#", 
   "socialLinks": {
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com",
-    "twitter": "https://twitter.com",
-    "instagram": "https://instagram.com",
+    "github": "https://github.com/OmjeeM",
+    "linkedin": "https://linkedin.com/in/om-jee-mishra-629795203",
+    "twitter": "",
+    "instagram": "",
     "other": [
       {
-        "name": "Portfolio",
-        "url": "https://example.com"
-      },
-      {
-        "name": "Blog",
-        "url": "https://example.com/blog"
+        "name": "LeetCode",
+        "url": "https://leetcode.com/OmjeeMishra/"
       }
     ]
   }
-} 
+}

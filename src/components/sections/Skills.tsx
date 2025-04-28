@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { getSkillsByCategory } from "@/lib/data";
 import Section, { SectionHeader } from "@/components/ui/Section";
-import { Button } from "@/components/ui/Button";
+import { Button, ButtonLink } from "@/components/ui/Button";
 
 // Load data
 const skillsByCategory = getSkillsByCategory();

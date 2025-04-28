@@ -181,14 +181,14 @@ export default function ProjectDetail({ project }: ProjectDetailProps) {
       </motion.div>
       
       {/* Challenges and Solutions */}
-      {(project.challenges?.length > 0 || project.solutions?.length > 0) && (
+      {(project?.challenges?.length > 0 || project?.solutions?.length > 0) && (
         <motion.div 
           variants={fadeIn("up", 0.5)}
           initial="hidden"
           animate="show"
           className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8"
         >
-          {project.challenges && project.challenges.length > 0 && (
+          {project.challenges?.length > 0 && (
             <div className="bg-card-bg border border-card-border rounded-lg p-6 shadow-sm">
               <h2 className="text-xl font-bold mb-4 flex items-center">
                 <span className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center mr-2">
@@ -207,7 +207,7 @@ export default function ProjectDetail({ project }: ProjectDetailProps) {
             </div>
           )}
           
-          {project.solutions && project.solutions.length > 0 && (
+          {project.solutions?.length > 0 && (
             <div className="bg-card-bg border border-card-border rounded-lg p-6 shadow-sm">
               <h2 className="text-xl font-bold mb-4 flex items-center">
                 <span className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center mr-2">

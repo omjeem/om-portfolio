@@ -62,6 +62,7 @@ export default function About() {
                 icon={FileText} 
                 variant="secondary"
                 external
+                className="shadow-md dark:shadow-primary/20 font-medium btn-primary"  
               >
                 Download Resume
               </ButtonLink>

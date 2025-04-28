@@ -36,9 +36,9 @@ const variantStyles: Record<ButtonVariant, string> = {
   secondary:
     "bg-secondary text-white hover:bg-secondary/90 focus:ring-2 focus:ring-secondary/20",
   outline:
-    "bg-transparent border border-foreground/20 hover:bg-foreground/5 focus:ring-2 focus:ring-foreground/10",
+    "bg-transparent border border-foreground/20 text-foreground hover:bg-foreground/5 focus:ring-2 focus:ring-foreground/10 dark:border-white/20 dark:text-white/90",
   ghost:
-    "bg-transparent hover:bg-foreground/5 focus:ring-2 focus:ring-foreground/10",
+    "bg-transparent text-foreground hover:bg-foreground/5 focus:ring-2 focus:ring-foreground/10 dark:text-white/90",
 };
 
 const sizeStyles: Record<ButtonSize, string> = {
@@ -114,6 +114,7 @@ const ButtonLink = forwardRef<HTMLAnchorElement, ButtonLinkProps>(
       ${variantStyles[variant]}
       ${sizeStyles[size]}
       ${fullWidth ? "w-full" : ""}
+      shadow-md dark:shadow-primary/20 font-medium btn-primary
       ${className}
     `;
 

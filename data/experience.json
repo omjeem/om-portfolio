@@ -1,99 +1,37 @@
 [
   {
     "id": "experience-1",
-    "company": "Tech Innovations Inc.",
-    "position": "Senior Full Stack Developer",
-    "location": "San Francisco, CA",
-    "startDate": "2021-08-01",
+    "company": "WASSERSTOFF RJ INNOVATIONS PRIVATE LIMITED",
+    "position": "Software Developer",
+    "location": "Gurugram, India",
+    "startDate": "2024-07-01",
     "endDate": null,
-    "description": "Leading full stack development for enterprise SaaS products serving global clients in finance and healthcare sectors.",
+    "description": "Contributed to multiple AI-driven and CMS-based projects, leading development of scalable full-stack applications and platform migrations.",
     "responsibilities": [
-      "Architect and develop scalable web applications using React, Node.js, and AWS",
-      "Lead a team of 5 developers implementing agile methodologies",
-      "Collaborate with product managers and designers to define product requirements",
-      "Implement CI/CD pipelines and maintain code quality standards",
-      "Mentor junior developers through code reviews and pair programming sessions"
+      "Enhanced the Next.js frontend and integrated AI functionalities into Lit Law, an AI-powered legal platform",
+      "Led backend development of Lit Sign, an AI-driven contract creation and e-signing platform using Node.js and React",
+      "Migrated 8,000+ posts from WordPress to Ghost CMS for BTC Wires and Legal Wires using custom-built APIs",
+      "Integrated an AI legal assistant chatbot into Legal Wires to assist users with Indian law queries in real-time",
+      "Maintained scalable architectures, enforced code quality practices using Husky, and optimized system performance"
     ],
     "achievements": [
-      "Reduced application load time by 40% through frontend optimization techniques",
-      "Led migration from monolithic architecture to microservices, improving scalability",
-      "Implemented real-time data synchronization features that increased user engagement by 25%",
-      "Spearheaded adoption of TypeScript across projects, reducing bugs by 30%"
+      "Successfully migrated 90,000+ members’ content with zero data loss across platforms",
+      "Increased user engagement through real-time AI interaction features",
+      "Built robust RESTful APIs improving backend scalability and response times",
+      "Spearheaded cross-functional integration between frontend and backend teams for faster product delivery"
     ],
     "technologies": [
-      "React", "TypeScript", "Node.js", "Express", "MongoDB", "AWS", "Docker", "GraphQL", "Redux"
+      "Next.js",
+      "React",
+      "Node.js",
+      "Redux",
+      "TypeScript",
+      "PostgreSQL",
+      "MongoDB",
+      "Prisma",
+      "Drizzle",
+      "Ghost CMS"
     ],
-    "logoUrl": "/api/placeholder?width=200&height=200&text=TI&color=0070F3&textColor=FFFFFF"
-  },
-  {
-    "id": "experience-2",
-    "company": "DataFlow Systems",
-    "position": "Full Stack Developer",
-    "location": "Seattle, WA",
-    "startDate": "2019-03-15",
-    "endDate": "2021-07-30",
-    "description": "Developed and maintained data visualization tools and analytics platforms for enterprise clients.",
-    "responsibilities": [
-      "Built responsive web applications using React and Node.js",
-      "Designed and implemented RESTful APIs and database schemas",
-      "Created interactive data visualization dashboards using D3.js",
-      "Collaborated with data scientists to implement machine learning features",
-      "Participated in agile development cycles with bi-weekly sprints"
-    ],
-    "achievements": [
-      "Developed a custom charting library that became a core company product",
-      "Improved API response times by 60% through database optimization",
-      "Contributed to open-source data visualization tools maintained by the company",
-      "Implemented automated testing that caught 95% of regressions before deployment"
-    ],
-    "technologies": [
-      "React", "JavaScript", "Node.js", "Express", "PostgreSQL", "D3.js", "Jest", "Docker"
-    ],
-    "logoUrl": "/api/placeholder?width=200&height=200&text=DF&color=6D28D9&textColor=FFFFFF"
-  },
-  {
-    "id": "experience-3",
-    "company": "WebSphere Solutions",
-    "position": "Frontend Developer",
-    "location": "Remote",
-    "startDate": "2018-01-10",
-    "endDate": "2019-03-01",
-    "description": "Specialized in building responsive and accessible web interfaces for client projects in various industries.",
-    "responsibilities": [
-      "Developed responsive web interfaces according to design specifications",
-      "Implemented accessibility features following WCAG guidelines",
-      "Optimized frontend performance for various devices and connection speeds",
-      "Integrated applications with third-party services and APIs",
-      "Participated in client meetings and requirement gathering sessions"
-    ],
-    "achievements": [
-      "Created a component library that reduced development time for new projects by 30%",
-      "Achieved perfect Lighthouse scores for performance and accessibility on key projects",
-      "Implemented PWA features that increased mobile user engagement by 45%"
-    ],
-    "technologies": [
-      "JavaScript", "HTML5", "CSS3", "Sass", "React", "Redux", "Webpack", "Jest"
-    ],
-    "logoUrl": "/api/placeholder?width=200&height=200&text=WS&color=F97316&textColor=FFFFFF"
-  },
-  {
-    "id": "experience-4",
-    "company": "Startup Accelerator",
-    "position": "Junior Web Developer",
-    "location": "Boston, MA",
-    "startDate": "2016-06-01",
-    "endDate": "2017-12-15",
-    "description": "Developed MVPs for early-stage startups in a fast-paced incubator environment.",
-    "responsibilities": [
-      "Built prototype web applications to validate startup ideas",
-      "Implemented frontend interfaces using HTML, CSS, and JavaScript",
-      "Developed backend functionality using Node.js and MongoDB",
-      "Assisted startups with technical requirements and feasibility analysis",
-      "Collaborated with cross-functional teams in an agile environment"
-    ],
-    "technologies": [
-      "JavaScript", "HTML", "CSS", "Node.js", "MongoDB", "Express", "Bootstrap"
-    ],
-    "logoUrl": "/api/placeholder?width=200&height=200&text=SA&color=10B981&textColor=FFFFFF"
+    "logoUrl": "/api/placeholder?width=200&height=200&text=WASSERSTOFF&color=00BFFF&textColor=FFFFFF"
   }
-] 
+]
