@@ -73,15 +73,15 @@ export default function Skills() {
                   </div>
                 )}
                 <h3 className="font-medium mb-2">{skill.name}</h3>
-                <div className="w-full bg-foreground/10 h-1.5 rounded-full mt-2">
+                {/* <div className="w-full bg-foreground/10 h-1.5 rounded-full mt-2">
                   <div 
                     className="bg-primary h-1.5 rounded-full"
                     style={{ width: `${skill.proficiency}%` }}
                   />
-                </div>
-                <span className="text-xs text-muted-foreground mt-1">
+                </div> */}
+                {/* <span className="text-xs text-muted-foreground mt-1">
                   {skill.proficiency}%
-                </span>
+                </span> */}
               </div>
             ))}
           </div>

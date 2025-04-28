@@ -13,7 +13,7 @@
       "Engaged in multiple project-based learning initiatives",
       "Strengthened expertise in Full Stack Development and AI integration"
     ],
-    "logoUrl": "/api/placeholder?width=200&height=200&text=GLBajaj&color=000080&textColor=FFFFFF"
+    "logoUrl": "/data/glBajaj.jpeg"
   },
   {
     "id": "education-2",
@@ -28,7 +28,7 @@
       "Secured 88.8% in CBSE Board Examination",
       "Active participant in science exhibitions and Olympiads"
     ],
-    "logoUrl": "/api/placeholder?width=200&height=200&text=Paradise&color=008000&textColor=FFFFFF"
+    "logoUrl": "/data/paradise.jpeg"
   },
   {
     "id": "education-3",
@@ -43,6 +43,6 @@
       "Achieved 83.8% in CBSE Board Examination",
       "Won awards for science projects and academic excellence"
     ],
-    "logoUrl": "/api/placeholder?width=200&height=200&text=CRBMemorial&color=FFA500&textColor=000000"
+    "logoUrl": "/data/crb.jpeg"
   }
 ]
