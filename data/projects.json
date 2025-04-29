@@ -41,7 +41,7 @@
     "technologies": ["React", "Node.js", "Redux", "Express.js", "LLMs"],
     "category": ["AI", "Web Development", "Full Stack"],
     "githubUrl": "",
-    "liveUrl": "https://litsignstage.lit.law/",
+    "liveUrl": "https://sign.lit.law/",
     "featured": true,
     "startDate": "2024-07-01",
     "endDate": null,
