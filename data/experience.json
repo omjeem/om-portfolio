@@ -1,7 +1,7 @@
 [
   {
     "id": "experience-1",
-    "company": "WASSERSTOFF RJ INNOVATIONS PRIVATE LIMITED",
+    "company": "WASSERSTOFF RJ INNOVATIONS PVT. LTD.",
     "position": "Software Developer",
     "location": "Gurugram, India",
     "startDate": "2023-07-01",
@@ -24,6 +24,8 @@
       "Next.js",
       "React",
       "Node.js",
+      "Express.js",
+      "SQL",
       "Redux",
       "TypeScript",
       "PostgreSQL",

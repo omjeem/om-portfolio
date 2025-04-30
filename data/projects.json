@@ -11,8 +11,18 @@
       "/projects/litLaw2.png",
       "/projects/litLaw3.png"
     ],
-    "technologies": ["Next.js", "Node.js", "Redux", "Tailwind CSS", "LLMs"],
-    "category": ["AI", "Web Development", "Full Stack"],
+    "technologies": [
+      "Next.js",
+      "Node.js",
+      "Redux",
+      "Tailwind CSS",
+      "LLMs"
+    ],
+    "category": [
+      "AI",
+      "Web Development",
+      "Full Stack"
+    ],
     "githubUrl": "",
     "liveUrl": "https://lit.law/",
     "featured": true,
@@ -36,10 +46,24 @@
     "longDescription": "Lit Sign is a full-stack platform for AI-assisted legal document creation and digital signing. I developed the Node.js backend handling contract generation, versioning, multi-party signing, and LLM-based clause negotiation. The frontend, built with React and Redux, enables users to manage contracts seamlessly.",
     "thumbnailUrl": "/api/placeholder?width=600&height=400&text=Lit%20Sign&color=20C997&textColor=FFFFFF",
     "imageUrls": [
-      "/api/placeholder?width=800&height=600&text=Lit%20Sign-1&color=20C997&textColor=FFFFFF"
+      "/projects/sign1.png",
+      "/projects/sign2.png",
+      "/projects/sign3.png",
+      "/projects/sign4.png",
+      "/projects/sign5.png"
     ],
-    "technologies": ["React", "Node.js", "Redux", "Express.js", "LLMs"],
-    "category": ["AI", "Web Development", "Full Stack"],
+    "technologies": [
+      "React",
+      "Node.js",
+      "Redux",
+      "Express.js",
+      "LLMs"
+    ],
+    "category": [
+      "AI",
+      "Web Development",
+      "Full Stack"
+    ],
     "githubUrl": "",
     "liveUrl": "https://sign.lit.law/",
     "featured": true,
@@ -58,7 +82,7 @@
   {
     "id": "project-3",
     "slug": "legal-wires",
-    "title": "Legal Wires Migration",
+    "title": "Legal Wires",
     "description": "Migrated 8000+ posts from WordPress to Ghost CMS with a custom-built theme and AI chatbot integration.",
     "longDescription": "I migrated Legal Wires, a leading legal news portal, from WordPress to Ghost CMS, handling over 8000 blog posts with zero data loss. Developed a custom Ghost theme using HTML, CSS, and JavaScript, and integrated an AI chatbot to assist users in legal queries, greatly boosting user engagement.",
     "thumbnailUrl": "/api/placeholder?width=600&height=400&text=Legal%20Wires&color=F9A825&textColor=FFFFFF",
@@ -69,8 +93,18 @@
       "/projects/wires4.png",
       "/projects/wires5.png"
     ],
-    "technologies": ["Ghost CMS", "HTML", "CSS", "JavaScript", "Custom APIs"],
-    "category": ["CMS Development", "Migration", "Web Development"],
+    "technologies": [
+      "Ghost CMS",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Custom APIs"
+    ],
+    "category": [
+      "CMS Development",
+      "Migration",
+      "Web Development"
+    ],
     "githubUrl": "",
     "liveUrl": "https://legal-wires.com/",
     "featured": false,
@@ -94,11 +128,20 @@
     "longDescription": "DNS Manager Hub allows users to manage domains and DNS records with AWS Route 53 easily. Built a user-friendly dashboard for domain operations, including CRUD functionality, filters, search, and bulk uploads. Integrated secure authentication and developed APIs for interacting with AWS services.",
     "thumbnailUrl": "/api/placeholder?width=600&height=400&text=DNS%20Manager&color=FF5733&textColor=FFFFFF",
     "imageUrls": [
-      "/api/placeholder?width=800&height=600&text=DNS%20Manager-1&color=FF5733&textColor=FFFFFF"
+      "/projects/dns.png"
     ],
-    "technologies": ["MERN Stack", "AWS Route 53", "MongoDB", "Express.js", "React"],
-    "category": ["Web Development", "Full Stack"],
-    "githubUrl": "https://github.com/OmjeeM/DNS-Manager",
+    "technologies": [
+      "MERN Stack",
+      "AWS Route 53",
+      "MongoDB",
+      "Express.js",
+      "React"
+    ],
+    "category": [
+      "Web Development",
+      "Full Stack"
+    ],
+    "githubUrl": "https://github.com/omjeem/DNS-Manager",
     "liveUrl": "#",
     "featured": false,
     "startDate": "2023-01-01",
@@ -111,6 +154,89 @@
     "solutions": [
       "Developed secure authentication with JWT",
       "Built efficient bulk record management with optimized backend queries"
+    ]
+  },
+  {
+    "id": "project-5",
+    "slug": "four-paws",
+    "title": "Four Paws",
+    "description": "A responsive pet adoption platform built with Next.js and Tailwind CSS to support stray dog adoption across India.",
+    "longDescription": "Four Paws is a full-stack pet adoption platform designed to facilitate digital adoption for stray dogs. Built a responsive and intuitive UI using Next.js and Tailwind CSS, featuring dynamic profiles for 40+ dogs. Enabled real-time updates to adoption statuses and attracted weekly visitors and corporate sponsors. Integrated a clean, mobile-first design ensuring seamless user experience across devices.",
+    "thumbnailUrl": "/api/placeholder?width=600&height=400&text=Four%20Paws&color=3498db&textColor=FFFFFF",
+    "imageUrls": [
+      "/projects/paws1.png",
+      "/projects/paws2.png",
+      "/projects/paws3.png",
+      "/projects/paws4.png",
+      "/projects/paws5.png"
+    ],
+    "technologies": [
+      "Next.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js"
+    ],
+    "category": [
+      "Web Development",
+      "Full Stack"
+    ],
+    "githubUrl": "",
+    "liveUrl": "https://fourpa.ws/",
+    "featured": false,
+    "startDate": "2023-06-01",
+    "endDate": "2023-08-31",
+    "role": "Full Stack Developer",
+    "challenges": [
+      "Building a responsive UI for multiple devices",
+      "Handling dynamic content updates in real-time"
+    ],
+    "solutions": [
+      "Implemented a mobile-first responsive design with Tailwind CSS",
+      "Developed efficient APIs for updating adoption statuses dynamically"
+    ]
+  },
+  {
+    "id": "project-6",
+    "slug": "admin-panel-cms",
+    "title": "Admin Panel CMS",
+    "description": "A full-stack CMS platform for multi-user blog management with secure image storage using ImageKit, built with React, Tailwind CSS, Node.js, and Express.js.",
+    "longDescription": "Admin Panel CMS is a scalable, full-stack content management system designed for multi-user blogging workflows. Engineered a responsive admin dashboard using React and Tailwind CSS to allow users and authors to create, edit, update, and publish blog posts. Implemented secure authentication and role-based access control (RBAC) for multiple users and authors. Developed backend APIs with Node.js and Express.js, integrated ImageKit for efficient media upload and management, and optimized data handling with MongoDB. Ensured seamless and secure communication between frontend and backend via JWT authentication and RESTful API design.",
+    "thumbnailUrl": "/api/placeholder?width=600&height=400&text=Admin%20Panel%20CMS&color=8e44ad&textColor=FFFFFF",
+    "imageUrls": [
+      "/projects/blog1.png",
+      "/projects/blog2.png",
+      "/projects/blog3.png",
+      "/projects/blog4.png",
+      "/projects/blog5.png"
+    ],
+    "technologies": [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "ImageKit.io",
+      "JWT Authentication"
+    ],
+    "category": [
+      "Web Development",
+      "Full Stack"
+    ],
+    "githubUrl": "",
+    "liveUrl": "https://blog-admin-panel-three.vercel.app/admin",
+    "featured": false,
+    "startDate": "2024-01-01",
+    "endDate": "2024-04-30",
+    "role": "Full Stack Developer",
+    "challenges": [
+      "Implementing scalable role-based access control for users and authors",
+      "Ensuring secure and optimized image upload and storage using ImageKit",
+      "Maintaining synchronization between frontend state and backend database operations"
+    ],
+    "solutions": [
+      "Developed a robust RBAC system with JWT and middleware-based route protection",
+      "Integrated ImageKit SDKs for secure, scalable media uploads and retrieval",
+      "Built efficient RESTful APIs and optimized state management on the client side using React Context and custom hooks"
     ]
   }
 ]
